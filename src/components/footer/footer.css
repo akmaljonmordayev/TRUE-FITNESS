@@ -1,0 +1,103 @@
+.pages-style-footer {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: white;
+}
+
+footer {
+    background: #01AEE7;
+    padding: 44px 100px;
+}
+
+.footer-ul li a {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.footer-ul li h3 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.footer-ul {
+    padding-top: 31px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-big-div {
+    display: flex;
+    gap: 141px;
+}
+
+.footer-heading-text {
+    color: white;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.latest-text {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.footer-send-input {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #0000009E;
+    width: 195px;
+    padding: 15px 0px 15px 15px;
+}
+
+.send-email-form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 32px;
+}
+
+.send-email-btn {
+    padding: 10px 16px 9px 16px;
+    background-color: #FFF500;
+    font-size: 26px;
+    border: none;
+}
+
+.icons-footer {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.footer-icons {
+    font-size: 20px;
+    color: white;
+}

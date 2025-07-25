@@ -1,0 +1,74 @@
+.flag-select-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+    font-family: sans-serif;
+    max-width: 320px;
+    padding: 10px;
+}
+
+.flag-phone-display {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.flag-icon {
+    width: 30px;
+    height: 20px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+.flag-dropdown {
+    padding: 6px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    background-color: #00adef;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #0095cc;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1239px;
+    margin: 0 auto;
+    gap: 16px;
+}
+
+.nav__top {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.pages-style {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+.nav__bottom{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    padding-bottom: 14px;
+}

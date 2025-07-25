@@ -1,0 +1,34 @@
+.a-section1-div1 {
+    background-image: url(../../assets/images/first-bg-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:73vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-btn {
+    font-size: 60px;
+    color: #C3F3F3;
+    background-color: #01AEE7;
+    border: none;
+    rotate: 90deg;
+    padding: 13px 20px;
+    border-radius: 50%;
+}
+
+.a-section1-div1-h1 {
+    padding-top: 34px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    max-width: 861px;
+}
