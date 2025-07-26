@@ -54,3 +54,121 @@
     text-transform: uppercase;
     max-width: 893px;
 }
+
+.banner {
+    max-width: 1241px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-text {
+    max-width: 45%;
+}
+
+.banner-text h1 {
+    max-width: 140px;
+    text-align: left;
+    font-size: 48px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.bold {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.blue {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #01AEE7;
+}
+
+.line {
+    width: 105px;
+    height: 4px;
+    background-color: #ffeb3b;
+    margin: 10px 0 20px 0;
+}
+
+.banner-text p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.cardio-link {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #01AEE7;
+}
+
+.cardio-link span {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #01AEE7;
+}
+
+.cardio-link:hover {
+    text-decoration: underline;
+}
+
+
+.dots {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 100px;
+    left: 45%;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.dot.active {
+    background-color: #ffeb3b;
+}
+
+/* Rasm qismi */
+.banner-img {
+    max-width: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.banner-img img {
+    width: 100%;
+    max-width: 480px;
+    transform: rotate(-1deg);
+}
