@@ -3,7 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:73vh;
+    height: 73vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,4 +31,26 @@
     text-transform: uppercase;
     color: white;
     max-width: 861px;
+}
+
+.a-section1-div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #01AEE7;
+    gap: 20px;
+    color: white;
+    padding: 48px 0px;
+}
+
+.a-section1-div2-h1 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 893px;
 }
