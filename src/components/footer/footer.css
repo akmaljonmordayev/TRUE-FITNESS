@@ -101,3 +101,145 @@ footer {
     font-size: 20px;
     color: white;
 }
+
+/* Extra small devices (phones <480px) */
+@media (max-width: 480px) {
+    .footer-send-input {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .footer-heading-text {
+        font-size: 14px;
+    }
+
+    .footer-icons {
+        font-size: 18px;
+    }
+    .footer-big-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+}
+
+/* Small devices (phones 480px–576px) */
+@media (max-width: 576px) {
+    .send-email-form {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-big-div {
+        gap: 24px;
+    }
+}
+
+/* Medium devices (tablets <768px) */
+@media (max-width: 768px) {
+    .footer-big-div {
+        display: flex;
+        gap: 40px;
+        padding: 0;
+    }
+
+    footer {
+        padding: 40px 20px;
+    }
+
+    .a-footer-div1,
+    .a-footer-div2 {
+        width: 100%;
+    }
+
+    .footer-heading-text {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    .footer-ul {
+        padding-top: 20px;
+    }
+
+    .footer-ul li a,
+    .footer-ul li h3 {
+        font-size: 14px;
+    }
+
+    .footer-send-input {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .send-email-form {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .send-email-btn {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .icons-footer {
+        justify-content: flex-start;
+        gap: 12px;
+    }
+}
+
+/* Large devices (tablets landscape <992px) */
+@media (max-width: 992px) {
+    .footer-big-div {
+        gap: 80px;
+        flex-wrap: wrap;
+    }
+}
+
+/* Extra large screens (<1200px) */
+@media (max-width: 1200px) {
+    .footer-big-div {
+        padding: 20px 50px;
+    }
+}
+
+/* Large-mid devices (1034px va kichikroq ekranlar uchun) */
+@media (max-width: 1024px) {
+    .footer-big-div {
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+    .a-footer-div1,
+    .a-footer-div2 {
+        width: 48%;
+    }
+
+    .footer-send-input {
+        width: 100%;
+    }
+
+    .send-email-btn {
+        font-size: 22px;
+    }
+
+    .footer-heading-text {
+        font-size: 15px;
+    }
+
+    .footer-ul li a,
+    .footer-ul li h3 {
+        font-size: 13px;
+    }
+
+    .send-email-form {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .icons-footer {
+        justify-content: flex-start;
+        gap: 10px;
+    }
+}

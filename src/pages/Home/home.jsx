@@ -8,6 +8,7 @@ import Comp1 from "../../assets/images/com.png";
 import Section2component2 from "../../components/sectioncomponent2/sectioncomponent2";
 import Comp2 from "../../assets/images/comtwo.png";
 function Home() {
+  
   return (
     <>
       <main>
