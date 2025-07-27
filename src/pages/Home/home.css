@@ -172,3 +172,15 @@
     max-width: 480px;
     transform: rotate(-1deg);
 }
+.a-section2{
+    background-color: #F5F5F5;
+    padding: 90px 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section2-lef-div{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}

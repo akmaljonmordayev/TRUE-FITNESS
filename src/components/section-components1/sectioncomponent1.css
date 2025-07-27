@@ -1,0 +1,46 @@
+.feature-banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 426px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 5%;
+  position: relative;
+  color: white;
+  max-width: 684px;
+}
+
+.feature-overlay {
+  max-width: 600px;
+}
+
+.feature-title {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  max-width: 427px;
+  text-align: left;
+}
+
+.feature-line {
+  width: 60px;
+  height: 3px;
+  background-color: yellow;
+  margin-bottom: 20px;
+}
+
+.feature-description {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+padding-top: 40px;
+  color: #e0e0e0;
+}

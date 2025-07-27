@@ -1,0 +1,40 @@
+.feature-line {
+    width: 60px;
+    height: 3px;
+    background-color: yellow;
+    margin-bottom: 20px;
+}
+
+.sectioncomponent2-div {
+    padding: 18px 48px;
+    background-color: #01AEE7;
+    max-width: 684px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+}
+
+.title2 {
+    max-width: 531px;
+    text-align: left;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.information {
+    max-width: 585px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: white;
+}
