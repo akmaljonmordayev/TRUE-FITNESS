@@ -54,3 +54,354 @@
     text-transform: uppercase;
     max-width: 893px;
 }
+
+.banner {
+    max-width: 1241px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-text {
+    max-width: 45%;
+}
+
+.banner-text h1 {
+    max-width: 140px;
+    text-align: left;
+    font-size: 48px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.bold {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.blue {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #01AEE7;
+}
+
+.line {
+    width: 105px;
+    height: 4px;
+    background-color: #ffeb3b;
+    margin: 10px 0 20px 0;
+}
+
+.banner-text p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.cardio-link {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #01AEE7;
+}
+
+.cardio-link span {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #01AEE7;
+}
+
+.cardio-link:hover {
+    text-decoration: underline;
+}
+
+
+.dots {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 100px;
+    left: 45%;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.dot.active {
+    background-color: #ffeb3b;
+}
+
+/* Rasm qismi */
+.banner-img {
+    max-width: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.banner-img img {
+    width: 100%;
+    max-width: 480px;
+    transform: rotate(-1deg);
+}
+.a-section2{
+    background-color: #F5F5F5;
+    padding: 90px 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section2-lef-div{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+/* ========== 1440px va undan katta ========== */
+@media (min-width: 1440px) {
+  .banner {
+    padding: 60px;
+  }
+
+  .a-section1-div1-h1 {
+    font-size: 56px;
+  }
+
+  .a-section1-div2-h1 {
+    font-size: 38px;
+  }
+
+  .banner-text h1 {
+    font-size: 52px;
+  }
+
+  .cardio-link {
+    font-size: 34px;
+  }
+
+  .cardio-link span {
+    font-size: 34px;
+  }
+}
+
+/* ========== 1200px - 1439px ========== */
+@media (max-width: 1439px) {
+  .banner {
+    padding: 40px;
+  }
+
+  .a-section1-div1-h1 {
+    font-size: 44px;
+  }
+
+  .a-section1-div2-h1 {
+    font-size: 30px;
+  }
+
+  .cardio-link,
+  .cardio-link span {
+    font-size: 26px;
+  }
+}
+
+/* ========== 992px - 1199px ========== */
+@media (max-width: 1199px) {
+  .banner {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .banner-text,
+  .banner-img {
+    max-width: 100%;
+  }
+
+  .dots {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .cardio-link {
+    align-items: center;
+  }
+
+  .a-section2 {
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 20px;
+  }
+}
+
+/* ========== 768px - 991px ========== */
+@media (max-width: 991px) {
+  .a-section1-div1 {
+    height: 60vh;
+    padding: 0 20px;
+  }
+
+  .a-section1-div1-h1 {
+    font-size: 38px;
+  }
+
+  .a-section1-div2-h1 {
+    font-size: 26px;
+    padding: 0 10px;
+  }
+
+  .banner-text h1 {
+    font-size: 36px;
+  }
+
+  .bold,
+  .blue {
+    font-size: 48px;
+  }
+
+  .cardio-link,
+  .cardio-link span {
+    font-size: 24px;
+  }
+}
+
+/* ========== 576px - 767px ========== */
+@media (max-width: 767px) {
+  .a-section1-div1 {
+    height: 50vh;
+  }
+
+  .a-section1-div1-h1 {
+    font-size: 30px;
+  }
+
+  .a-section1-div2-h1 {
+    font-size: 22px;
+  }
+
+  .banner {
+    padding: 30px 16px;
+  }
+
+  .banner-text h1 {
+    font-size: 30px;
+  }
+
+  .bold,
+  .blue {
+    font-size: 40px;
+  }
+
+  .cardio-link,
+  .cardio-link span {
+    font-size: 20px;
+  }
+
+  .banner-img img {
+    max-width: 300px;
+  }
+
+  .dots {
+    margin-top: 16px;
+  }
+}
+
+/* ========== 480px - 575px ========== */
+@media (max-width: 575px) {
+  .a-section1-div1-h1 {
+    font-size: 24px;
+  }
+
+  .a-section1-div2-h1 {
+    font-size: 18px;
+  }
+
+  .banner-text p {
+    font-size: 16px;
+  }
+
+  .cardio-link,
+  .cardio-link span {
+    font-size: 18px;
+  }
+
+  .bold,
+  .blue {
+    font-size: 32px;
+  }
+}
+
+/* ========== 0px - 479px ========== */
+@media (max-width: 479px) {
+  .a-section1-div1-h1 {
+    font-size: 20px;
+  }
+
+  .a-section1-div2-h1 {
+    font-size: 16px;
+  }
+
+  .video-btn {
+    font-size: 38px;
+    padding: 10px 14px;
+  }
+
+  .banner {
+    padding: 20px;
+  }
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .banner-text h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .bold,
+  .blue {
+    font-size: 28px;
+  }
+
+  .cardio-link,
+  .cardio-link span {
+    font-size: 16px;
+  }
+
+  .banner-img img {
+    max-width: 240px;
+  }
+
+  .dots {
+    margin-top: 14px;
+  }
+}

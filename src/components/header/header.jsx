@@ -3,6 +3,7 @@ import logo from "../../assets/images/logo.png";
 import { Link } from "react-router-dom";
 import "./header.css";
 import Line from "../../assets/images/Line 1.png";
+
 function Header() {
   const flags = [
     {
@@ -32,6 +33,7 @@ function Header() {
   ];
 
   const [selected, setSelected] = useState(flags[0]);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleSelect = (e) => {
     const country = flags.find((f) => f.code === e.target.value);
@@ -42,11 +44,10 @@ function Header() {
     <header>
       <nav className="header-nav">
         <div className="nav__top">
-          <div>
-            <Link to={"/"}>
-              <img src={logo} alt="" />
-            </Link>
-          </div>
+          <Link to={"/"}>
+            <img src={logo} alt="Logo" className="logo-img" />
+          </Link>
+
           <div className="flag-select-wrapper">
             <div className="flag-phone-display">
               <img
@@ -71,9 +72,16 @@ function Header() {
 
             <button className="submit-btn">ОСТАВИТЬ ЗАЯВКУ</button>
           </div>
+
+          {/* Burger Icon */}
+          <div className="burger" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            ☰
+          </div>
         </div>
-        <img src={Line} alt="" />
-        <div className="nav__bottom">
+
+        <img src={Line} alt="Line" className="line-img" />
+
+        <div className={`nav__bottom ${isMenuOpen ? "active" : ""}`}>
           <Link className="pages-style" to={"/brand"}>о бренде</Link>
           <Link className="pages-style" to={"/goal"}>преимущества</Link>
           <Link className="pages-style" to={"/club"}>открыть клуб</Link>

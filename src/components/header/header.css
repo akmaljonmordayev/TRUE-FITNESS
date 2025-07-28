@@ -1,74 +1,218 @@
-.flag-select-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 12px;
-    font-family: sans-serif;
-    max-width: 320px;
-    padding: 10px;
-}
-
-.flag-phone-display {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 16px;
-}
-
-.flag-icon {
-    width: 30px;
-    height: 20px;
-    object-fit: cover;
-    border: 1px solid #ccc;
-}
-
-.flag-dropdown {
-    padding: 6px 10px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.submit-btn {
-    background-color: #00adef;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.submit-btn:hover {
-    background-color: #0095cc;
-}
-
 .header-nav {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 1239px;
-    margin: 0 auto;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1239px;
+  margin: 0 auto;
+  gap: 16px;
+  position: relative;
+  z-index: 10; /* nav main ustiga chiqmaydi */
+}
+
+main {
+  z-index: 1;
+  position: relative;
 }
 
 .nav__top {
-    display: flex;
-    align-items: center;
-    padding-top: 24px;
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.flag-select-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  font-family: sans-serif;
+  max-width: 320px;
+  padding: 10px;
+}
+
+.flag-phone-display {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.flag-icon {
+  width: 30px;
+  height: 20px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}
+
+.flag-dropdown {
+  padding: 6px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: #00adef;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0095cc;
+}
+
+.nav__bottom {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  padding-bottom: 14px;
 }
 
 .pages-style {
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 15px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
 }
-.nav__bottom{
+
+.line-img {
+  width: 100%;
+}
+
+.burger {
+  display: none;
+}
+
+/* -------- MEDIA QUERIES -------- */
+
+@media (max-width: 1439px) {
+  .nav__bottom {
+    gap: 100px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .nav__bottom {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .nav__top {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 20px;
+    position: relative;
+  }
+
+  .flag-select-wrapper {
+    width: 100%;
+  }
+
+  .flag-phone-display {
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+
+  .flag-dropdown,
+  .submit-btn {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .burger {
+    display: block;
+    font-size: 28px;
+    color: #01AEE7;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 11;
+  }
+
+  .nav__bottom {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #fff;
+    gap: 16px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    z-index: 10;
+  }
+
+  .nav__bottom.active {
     display: flex;
-    align-items: center;
-    gap: 120px;
-    padding-bottom: 14px;
+  }
+
+  .pages-style {
+    width: 100%;
+    text-align: left;
+    padding: 8px 0;
+  }
+
+  .line-img {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-img {
+    width: 120px;
+  }
+
+  .submit-btn {
+    font-size: 14px;
+  }
+
+  .pages-style {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+  .logo-img {
+    width: 100px;
+  }
+
+  .flag-phone-display {
+    font-size: 13px;
+  }
+
+  .flag-icon {
+    width: 26px;
+    height: 18px;
+  }
+
+  .submit-btn {
+    font-size: 13px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 479px) {
+  .flag-phone-display {
+    font-size: 12px;
+  }
+
+  .submit-btn {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .burger {
+    font-size: 24px;
+  }
+
+  .pages-style {
+    font-size: 13px;
+  }
 }
