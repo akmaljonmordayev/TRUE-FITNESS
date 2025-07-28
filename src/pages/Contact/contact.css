@@ -57,11 +57,6 @@
   gap: 40px;
 }
 
-.map-container {
-  flex: 1;
-  min-width: 300px;
-}
-
 .text {
   flex: 1;
   display: flex;
@@ -107,7 +102,6 @@
   color: #01aee7;
 }
 
-/* Responsive */
 @media (max-width: 1024px) {
   .contact-container {
     flex-direction: column;
