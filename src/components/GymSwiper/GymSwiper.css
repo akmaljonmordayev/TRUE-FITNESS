@@ -1,0 +1,45 @@
+.gym-swiper-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.gym-slide-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* Custom navigation buttons */
+.custom-prev,
+.custom-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #00b4ff; /* bright blue */
+  border: none;
+  color: white;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 10;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s;
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+  background-color: #009ed9;
+}
+
+.custom-prev {
+  left: -20px;
+}
+
+.custom-next {
+  right: -20px;
+}
