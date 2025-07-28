@@ -15,7 +15,7 @@ function App() {
       <Route path="/club" element={<Layout> <Club/> </Layout>}  />
       <Route path="/contact" element={<Layout> <Contact/> </Layout>}  />
     </Routes>
-  );
+  );  
 }
 
 export default App;

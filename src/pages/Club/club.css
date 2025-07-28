@@ -4,10 +4,7 @@ textarea::placeholder {
   font-size: 20px;
 }
 
-section {
-  max-width: 1300px;
-  margin: 0 auto;
-}
+
 
 
 @media (max-width: 300px) {
