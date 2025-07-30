@@ -102,7 +102,7 @@ footer {
     color: white;
 }
 
-/* Extra small devices (phones <480px) */
+
 @media (max-width: 480px) {
     .footer-send-input {
         font-size: 14px;
@@ -123,7 +123,6 @@ footer {
 
 }
 
-/* Small devices (phones 480px–576px) */
 @media (max-width: 576px) {
     .send-email-form {
         flex-direction: column;
@@ -135,7 +134,7 @@ footer {
     }
 }
 
-/* Medium devices (tablets <768px) */
+
 @media (max-width: 768px) {
     .footer-big-div {
         display: flex;
@@ -188,7 +187,7 @@ footer {
     }
 }
 
-/* Large devices (tablets landscape <992px) */
+
 @media (max-width: 992px) {
     .footer-big-div {
         gap: 80px;
@@ -196,14 +195,14 @@ footer {
     }
 }
 
-/* Extra large screens (<1200px) */
+
 @media (max-width: 1200px) {
     .footer-big-div {
         padding: 20px 50px;
     }
 }
 
-/* Large-mid devices (1034px va kichikroq ekranlar uchun) */
+
 @media (max-width: 1024px) {
     .footer-big-div {
         flex-wrap: wrap;

@@ -1,190 +1,315 @@
 .a-section1-div1 {
-    background-image: url(../../assets/images/first-bg-image.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 73vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background-image: url(../../assets/images/first-bg-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 73vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .video-btn {
-    font-size: 60px;
-    color: #C3F3F3;
-    background-color: #01AEE7;
-    border: none;
-    rotate: 90deg;
-    padding: 13px 20px;
-    border-radius: 50%;
+  font-size: 60px;
+  color: #C3F3F3;
+  background-color: #01AEE7;
+  border: none;
+  rotate: 90deg;
+  padding: 13px 20px;
+  border-radius: 50%;
 }
 
 .a-section1-div1-h1 {
-    padding-top: 34px;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 50px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    max-width: 861px;
+  padding-top: 34px;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  max-width: 861px;
 }
 
 .a-section1-div2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #01AEE7;
-    gap: 20px;
-    color: white;
-    padding: 48px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #01AEE7;
+  gap: 20px;
+  color: white;
+  padding: 48px 0px;
 }
 
 .a-section1-div2-h1 {
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 35px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: uppercase;
-    max-width: 893px;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 35px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 893px;
 }
 
 .banner {
-    max-width: 1241px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    background: #fff;
-    position: relative;
-    overflow: hidden;
-    position: relative;
+  max-width: 1241px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  position: relative;
 }
 
 .banner-text {
-    max-width: 45%;
+  max-width: 45%;
 }
 
 .banner-text h1 {
-    max-width: 140px;
-    text-align: left;
-    font-size: 48px;
-    margin-bottom: 15px;
-    line-height: 1.2;
+  max-width: 140px;
+  text-align: left;
+  font-size: 48px;
+  margin-bottom: 15px;
+  line-height: 1.2;
 }
 
 .bold {
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 60px;
-    line-height: 100%;
-    letter-spacing: 0%;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 .blue {
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 60px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #01AEE7;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #01AEE7;
 }
 
 .line {
-    width: 105px;
-    height: 4px;
-    background-color: #ffeb3b;
-    margin: 10px 0 20px 0;
+  width: 105px;
+  height: 4px;
+  background-color: #ffeb3b;
+  margin: 10px 0 20px 0;
 }
 
 .banner-text p {
-    font-size: 18px;
-    font-weight: 600;
-    color: #111;
-    line-height: 1.6;
-    margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #111;
+  line-height: 1.6;
+  margin-bottom: 25px;
 }
 
 .cardio-link {
-    display: flex;
-    flex-direction: column;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 30px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-transform: uppercase;
-    color: #01AEE7;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #01AEE7;
 }
 
 .cardio-link span {
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 30px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-transform: uppercase;
-    color: #01AEE7;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #01AEE7;
 }
 
 .cardio-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 
 .dots {
-    margin-top: 10px;
-    position: absolute;
-    bottom: 100px;
-    left: 45%;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 100px;
+  left: 45%;
 }
 
 .dot {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin-right: 8px;
-    background-color: #ccc;
-    border-radius: 50%;
-    transition: all 0.3s ease;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+  background-color: #ccc;
+  border-radius: 50%;
+  transition: all 0.3s ease;
 }
 
 .dot.active {
-    background-color: #ffeb3b;
+  background-color: #ffeb3b;
 }
 
 /* Rasm qismi */
 .banner-img {
-    max-width: 50%;
-    position: relative;
-    z-index: 2;
+  max-width: 50%;
+  position: relative;
+  z-index: 2;
 }
 
 .banner-img img {
-    width: 100%;
-    max-width: 480px;
-    transform: rotate(-1deg);
+  width: 100%;
+  max-width: 480px;
+  transform: rotate(-1deg);
 }
-.a-section2{
-    background-color: #F5F5F5;
-    padding: 90px 26px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+
+.a-section2 {
+  background-color: #F5F5F5;
+  padding: 90px 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.section2-lef-div{
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
+
+.section2-lef-div {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
-/* ========== 1440px va undan katta ========== */
+
+.a-section3-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 120px;
+  padding: 99px 92px;
+}
+
+.masks {
+  display: flex;
+  max-width: 692px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 92px;
+}
+
+.a-section3-left-h1 {
+  max-width: 541px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #01AEE7;
+}
+
+.a-section3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-section {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../assets/images/bgI.png); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-container h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-container p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-container input {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-container button {
+  background-color: #00AEEF;
+  color: white;
+  padding: 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #008ecf;
+}
+
+.form-container small {
+  display: block;
+  margin-top: 15px;
+  font-size: 11px;
+  color: #666;
+  line-height: 1.4;
+  text-align: left;
+}
+
+@media (max-width: 500px) {
+  .form-container {
+    padding: 20px;
+  }
+
+  .form-container h2 {
+    font-size: 16px;
+  }
+
+  .form-container p {
+    font-size: 13px;
+  }
+}
+
+
+
+
+
+
 @media (min-width: 1440px) {
   .banner {
     padding: 60px;
@@ -376,11 +501,11 @@
     padding: 20px;
   }
 
-.banner-text{
+  .banner-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+  }
 
   .banner-text h1 {
     font-size: 24px;
