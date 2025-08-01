@@ -27,3 +27,35 @@
     text-transform: lowercase;
 }
 
+@media (max-width: 1024px) {
+    .zb-img {
+        width: 50px;
+    }
+
+    .topic-class {
+        font-size: 16px;
+    }
+
+    .data-class {
+        font-size: 12px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .zb-img {
+        width: 20px;
+    }
+
+    .sectioncomponent3-div {
+        max-width: 30px;
+    }
+    .topic-class {
+        font-size: 10px;
+    }
+      .data-class{
+        font-size: 9px;
+        max-width: 100px;
+      }
+
+}
